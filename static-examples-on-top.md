@@ -29,30 +29,12 @@ CSS syntax examples are syntax-highlighted PRE blocks that show the syntax of th
 
 *Most* pages already have a section like this, so the only work is to move it to the top.
 
-### Syntax outcomes for CSS
-Syntax outcomes show the effect of different values for the item. For example:
+### Example outcomes for CSS
+Example outcomes show the effect of different values for the item. For example:
 
-<div id="div1" style="width:  200px;  height: 100px; border: 1px solid black; overflow-y: hidden; margin-bottom: 12px;">
-<b><code>overflow-y:hidden</code></b></br></br>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</div>
-<div id="div2" style="width:  200px;  height: 100px;border: 1px solid black; overflow-y: scroll; margin-bottom: 12px;">
-<b><code>overflow-y:scroll</code></b></br></br>
+![overflow-y](overflow-y.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</div>
-<div id="div3" style="width:  200px;  height: 100px;border: 1px solid black; overflow-y: visible; margin-bottom: 50px;">
-<b><code>overflow-y:visible</code></b></br></br>
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-<div id="div4" style="width:  200px;  height: 100px;border: 1px solid black; overflow-y: auto; margin-bottom: 12px;">
-<b><code>overflow-y:auto</code></b></br></br>
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</div>
-
-Most pages have live samples or other examples that could be adapted to be effective "syntax outcomes", but rework would be needed and every case would be different.
+Most pages have live samples or other examples that could be adapted to be effective "example outcomes", but rework would be needed and every case would be different.
 
 ### What work is needed?
 
@@ -72,11 +54,11 @@ This includes about 160 pages updated during the Write the Docs writing day. Thi
 
 Note though that this parallelizes very well indeed.
 
-#### Syntax outcomes
+#### Example outcomes
 
-For syntax outcomes we don't have a clear picture. For one thing, it's likely that syntax outcomes won't work well for many CSS items, but we don't yet have a picture of which ones these are.
+For example outcomes we don't have a clear picture. For one thing, it's likely that example outcomes won't work well for many CSS items, but we don't yet have a picture of which ones these are.
 
-For another thing, this isn't repetitive work: each outcome should be designed differently. I think for this we should do an experiment of processing, say, 50 items to add syntax outcomes (or not add them if it is not appropriate) and extrapolate from that.
+For another thing, this isn't repetitive work: each outcome should be designed differently. I think for this we should do an experiment of processing, say, 50 items to add example outcomes (or not add them if it is not appropriate) and extrapolate from that.
 
 ## JavaScript pages
 
@@ -108,7 +90,7 @@ We're intending to go ahead with interactive examples, and they will replace sta
 
 * Since JS examples would be easily reused for interactive examples, they are also still worth doing.
 
-* Can we say the same about CSS syntax outcomes?
+* Can we say the same about CSS example outcomes?
 
 ## What's next?
 
