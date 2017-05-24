@@ -85,7 +85,7 @@ The table below breaks the work down into pieces, with each piece consisting of 
 <tr><td>Object</td><td>40</td></tr>
 <tr><td>Function, Functions, Classes</td><td>14, 11, 4</td></tr>
 <tr><td>(Array (done))</td><td>(38)</td></tr>
-<tr><td>String</td><td>50</td></tr>
+<tr><td>String, Template literals</td><td>50, 1</td></tr>
 <tr><td>Number, Math</td><td>24, 44</td></tr>
 <tr><td>Date</td><td>53</td></tr>
 <tr><td>Regex</td><td>21</td></tr>
@@ -98,7 +98,6 @@ The table below breaks the work down into pieces, with each piece consisting of 
 <tr><td>Atomics/SAB</td><td>17</td></tr>
 <tr><td>Expressions & Operators</td><td>29</td></tr>
 <tr><td>Statements & Declarations</td><td>27</td></tr>
-<tr><td>Template literals</td><td>01</td></tr>
 
 </table>
 
