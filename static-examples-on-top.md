@@ -70,17 +70,48 @@ For the JavaScript reference pages, we need to add a simple code example. The ou
     console.log(a);      // ['zero', 'one', 'two', 'three']
     console.log(sliced); // ['one', 'two']
 
+It's not a great deal of work, but care is needed to design a concise helpful example.
+
 ### What work is needed?
 
-There are 658 pages under [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/).
+[Structure of the MDN JavaScript docs](https://developer.mozilla.org/en-US/docs/MDN/Doc_status/JavaScript#Structure_of_the_MDN_JavaScript_docs) lists the number of pages in each section of the JS docs.
 
-Florian added examples for 35 pages that document [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). He took 3-4 days for this, so he can produce them (in short bursts, anyway), at 10 per day.
+The table below breaks the work down into pieces, with each piece consisting of one or more sections of the JS reference docs:
 
-It's unclear what factor we should add for the people doing the work not being Florian, but let's say 5 per day, including review time, for someone with solid JS skills. We should revise this as we go.
+<table>
 
-50/week would be about 13 weeks.
+<tr><th>Name</th><th>Number of pages</th></tr>
+<tr><td>Value & function properties in the global scope, JSON, Boolean</td><td>16, 3, 5</td></tr>
+<tr><td>Object</td><td>40</td></tr>
+<tr><td>Function, Functions, Classes</td><td>14, 11, 4</td></tr>
+<tr><td>(Array (done))</td><td>(38)</td></tr>
+<tr><td>String</td><td>50</td></tr>
+<tr><td>Number, Math</td><td>24, 44</td></tr>
+<tr><td>Date</td><td>53</td></tr>
+<tr><td>Regex</td><td>21</td></tr>
+<tr><td>Intl</td><td>16</td></tr>
+<tr><td>Map, WeakMap, Set, WeakSet</td><td>13, 7, 11, 6</td></tr>
+<tr><td>Proxy, Reflect</td><td>17, 15</td></tr>
+<tr><td>ArrayBuffer, DataView, TypedArray</td><td>6, 21, 34</td></tr>
+<tr><td>Promise</td><td>8</td></tr>
+<tr><td>Symbol</td><td>18</td></tr>
+<tr><td>Atomics/SAB</td><td>17</td></tr>
+<tr><td>Expressions & Operators</td><td>29</td></tr>
+<tr><td>Statements & Declarations</td><td>27</td></tr>
+<tr><td>Template literals</td><td>01</td></tr>
 
-This work should also parallelize very well, though.
+</table>
+
+= 531 (not including Array)
+
+This is an upper bound though:
+
+* We might choose to exclude DataView and TypedArray, which would remove 55 pages.
+
+* Additionally there are 119 properties:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Properties_Index. For most of these we don't need examples on top.
+
+This would make the lower bound about 357.
 
 ## Open questions
 
@@ -94,8 +125,14 @@ We're intending to go ahead with interactive examples, and they will replace sta
 
 ## What's next?
 
-* Continue to work on CSS syntax examples, to finish them off.
+### CSS syntax examples
 
-* Get an estimate for time to add CSS example outcomes, by processing, say, 50 pages.
+Add a story to the next sprint, to finish them off. There are a little under 300 pages left. If everyone takes a couple of days to work on this story, we can probably finish it off.
 
-* Start adding JS examples.
+### CSS example outcomes
+
+Add a story to the next sprint, to write example outcomes for the top 50 CSS properties. This will give us a better idea of what's involved here.
+
+### JS examples
+
+Hire a contractor to write these.
